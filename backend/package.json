@@ -1,0 +1,22 @@
+{
+  "name": "core-node-backend",
+  "version": "1.0.0",
+  "description": "CRUD API using Node core HTTP server and MongoDB",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "node --watch src/server.js",
+    "start": "node src/server.js"
+  },
+  "keywords": [
+    "node-http",
+    "mongoose",
+    "crud"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "mongoose": "^8.12.1"
+  }
+}
