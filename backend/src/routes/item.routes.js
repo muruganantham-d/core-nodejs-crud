@@ -13,6 +13,10 @@ function normalizePath(pathname) {
     return pathname.slice(0, -1);
   }
 
+// EX:
+// const pathname = "/about/";
+// console.log(pathname.slice(0, -1)); "/about"
+
   return pathname;
 }
 
